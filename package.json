@@ -1,0 +1,35 @@
+{
+  "name": "react-native-wechat-pro",
+  "version": "1.0.2",
+  "description": "react-native library for wechat app sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  
+  "keywords": [
+    "wechat",
+    "react",
+    "react-native",
+    "react-component",
+    "ios"
+  ],
+  "dependencies": {
+    "events": "1.0.2"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "Michael<344459943@qq.com>",
+  "contributors": [
+    {
+      "name": "Michael",
+      "email": "344459943@qq.com"
+    },
+    {
+      "name": "Jiangdianlong",
+      "email": "344459943@qq.com"
+    }
+  ],
+  "license": "MIT"
+}
