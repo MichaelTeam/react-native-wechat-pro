@@ -1,13 +1,13 @@
 <img height="200" src="./weixin.png?raw=true">
 
-# React-Native-Wechat
+# react-native-wechat-pro
 
 [React Native] bridging library that integrates WeChat SDKs:
 
 - [x] iOS SDK 1.8.3
 - [x] Android SDK 1.8.3
 
-And [react-native-wechat] has the following tracking data in open source world:
+And [react-native-wechat-pro] has the following tracking data in open source world:
 
 | NPM | Dependency | Downloads | Build |
 |-----|------------|-----------|-------|
@@ -29,7 +29,7 @@ And [react-native-wechat] has the following tracking data in open source world:
 
 ## API Documentation
 
-[react-native-wechat] exposes the promise-based, therefore you could use `Promise`
+[react-native-wechat-pro] exposes the promise-based, therefore you could use `Promise`
 or `async/await` to manage your dataflow.
 
 #### registerApp(appid)
@@ -40,7 +40,7 @@ or `async/await` to manage your dataflow.
 This method should be called once globally.
 
 ```js
-import * as WeChat from 'react-native-wechat';
+import * as WeChat from 'react-native-wechat-pro';
 
 WeChat.registerApp('appid');
 ```
@@ -123,7 +123,7 @@ Share a `ShareMetadata` message to timeline(朋友圈) and returns:
 These example code need 'react-native-chat' and 'react-native-fs' plugin.
 
 ```js
-import * as WeChat from 'react-native-wechat';
+import * as WeChat from 'react-native-wechat-pro';
 import fs from 'react-native-fs';
 let resolveAssetSource = require('resolveAssetSource');
 
@@ -308,7 +308,7 @@ Sends request for proceeding payment, then returns an object:
 ## Installation
 
 ```sh
-$ npm install react-native-wechat --save
+$ npm install react-native-wechat-pro --save
 ```
 
 
@@ -331,7 +331,7 @@ $ npm install react-native-wechat --save
 
 #### Tutorials
 
-- [react-native-wechat微信组件的使用](http://www.jianshu.com/p/3f424cccb888)
+- [react-native-wechat-pro微信组件的使用](http://www.jianshu.com/p/3f424cccb888)
 - [超详细React Native实现微信好友/朋友圈分享功能-Android/iOS双平台通用](http://www.jianshu.com/p/ce5439dd1f52)
 - [柳轩涤俗 - 微信登录](http://www.cnblogs.com/zhangdw/p/6194345.html)
 
@@ -354,18 +354,5 @@ $ npm install react-native-wechat --save
 
 ## License
 
-MIT
-
-[react-native-wechat]: https://github.com/yorkie/react-native-wechat
-[npm-image]: https://img.shields.io/npm/v/react-native-wechat.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/react-native-wechat
-[travis-image]: https://img.shields.io/travis/yorkie/react-native-wechat.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yorkie/react-native-wechat
-[david-image]: http://img.shields.io/david/yorkie/react-native-wechat.svg?style=flat-square
-[david-url]: https://david-dm.org/yorkie/react-native-wechat
-[downloads-image]: http://img.shields.io/npm/dm/react-native-wechat.svg?style=flat-square
-[downloads-url]: https://npmjs.org/package/react-native-wechat
-[React Native]: https://github.com/facebook/react-native
-[react-native-cn]: https://github.com/reactnativecn
-[WeChat SDK]: https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=1417674108&token=&lang=zh_CN
+res_list&verify=1&id=1417674108&token=&lang=zh_CN
 [Linking Libraries iOS Guidance]: https://developer.apple.com/library/ios/recipes/xcode_help-project_editor/Articles/AddingaLibrarytoaTarget.html
