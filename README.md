@@ -2,6 +2,12 @@
 
 # react-native-wechat-pro
 
+[React Native] 基于react-native-wechat组件的增强版本，集成了分享小程序,微信支付优化~等更新了sdk:
+传送门(#https://github.com/yorkie/react-native-wechat)
+
+- [x] iOS SDK 1.8.3
+- [x] Android SDK 1.8.3
+
 [React Native] bridging library that integrates WeChat SDKs:
 
 - [x] iOS SDK 1.8.3
@@ -304,6 +310,9 @@ Sends request for proceeding payment, then returns an object:
 |---------|--------|-------------------------------------|
 | errCode | Number | 0 if authorization successed        |
 | errStr  | String | Error message if any error occurred |
+
+
+- 如果sign 始终不正确试着传递 "1"
 
 ## Installation
 
