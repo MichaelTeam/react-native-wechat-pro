@@ -361,6 +361,9 @@ $ npm install react-native-wechat-pro --save
 <!--[@xing-zheng]: https://github.com/xing-zheng-->
 <!--[@tdzl2003]: https://github.com/tdzl2003-->
 
+MIT
+
+[react-native-wechat-pro]: https://github.com/jdl7758258/react-native-wechat-pro
 ## License
 
 res_list&verify=1&id=1417674108&token=&lang=zh_CN
