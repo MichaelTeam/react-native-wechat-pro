@@ -1,7 +1,7 @@
 {
   "name": "react-native-wechat-pro",
-  "version": "1.0.4",
-  "description": "react-native library for wechat app sdk",
+  "version": "1.0.6",
+  "description": "小程序允许分享网络图片",
   "main": "index.js",
   "scripts": {
     "test": "echo 1"

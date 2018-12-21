@@ -7,6 +7,7 @@ Add the following libraries to your "Link Binary with Libraries":
 - [x] `libsqlite3.0`
 - [x] `libc++`
 - [x] `libz`
+- [x] `libRCTWeChat.a`
 
 Add "URL Schema" as your app id for "URL type" in Targets > info, See 
 the following screenshot for the view on your XCode:

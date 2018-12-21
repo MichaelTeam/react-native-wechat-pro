@@ -3,7 +3,7 @@
 # react-native-wechat-pro
 
 [React Native] 基于react-native-wechat组件的增强版本，集成了分享小程序,微信支付优化~等更新了sdk:
-传送门(#https://github.com/yorkie/react-native-wechat)
+传送门(https://github.com/jdl7758258/react-native-wechat-pro)
 
 - [x] iOS SDK 1.8.3
 - [x] Android SDK 1.8.3
